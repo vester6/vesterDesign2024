@@ -1,0 +1,11 @@
+/* assets/css/main.css */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Lora", sans-serif;
+}
+
+p {
+  font-size: 18pt;
+  font-weight: 100;
+}
