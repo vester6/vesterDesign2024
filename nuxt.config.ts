@@ -1,7 +1,6 @@
-export default defineNuxtConfig({
+export default {
   css: ["/assets/css/main.css"],
-  modules: [
-    // other modules
-  ],
+  buildModules: ["@nuxtjs/tailwindcss"],
+
   plugins: ["/plugins/google-fonts.client.js"],
-});
+};
